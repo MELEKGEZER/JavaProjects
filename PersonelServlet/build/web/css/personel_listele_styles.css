@@ -1,0 +1,56 @@
+/* personel_listele_styles.css */
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Title */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+/* Navigation Links */
+.nav {
+    justify-content: center;
+}
+
+.nav-link {
+    margin: 0 10px;
+}
+
+/* Alert Message */
+.alert {
+    margin-top: 20px;
+}
+
+/* Table */
+.table {
+    margin-top: 30px;
+}
+
+/* Table Header */
+.table thead th {
+    background-color: #fff;
+    color:black;
+    font-weight: bold;
+}
+
+/* Table Rows */
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Total Row */
+.table tbody .total-row {
+    background-color: #cce5ff;
+    font-weight: bold;
+}
+

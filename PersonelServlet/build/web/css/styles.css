@@ -1,0 +1,57 @@
+/* Container */
+.container {
+    max-width: 800px;
+    min-height: 100vh; /* Sayfa yüksekliğine eşit */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* İçerikleri dikey olarak ortala */
+    align-items: center; /* İçerikleri yatay olarak ortala */
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* İçerikleri merkezine hizalama */
+}
+
+/* Page Title */
+h1 {
+    font-family: Arial, sans-serif; /* Font ailesi */
+    font-size: 36px; /* Font büyüklüğü */
+    margin-bottom: 30px;
+    color: #007bff; /* Metni ortala ve renk ayarı */
+}
+
+/* Navbar Style */
+.navbar {
+    background-color: #fff; /* Açık gri navbar arka plan rengi */
+    border-bottom: 2px solid #007bff; /* Alt kenar çizgisi mavi */
+    justify-content: center; /* Navbar içeriklerini ortalama */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #007bff; /* Navbar metin rengi */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #0056b3; /* Metin rengi hover durumunda koyu mavi */
+}
+
+/* Navigation Links */
+.nav {
+    justify-content: center;
+}
+
+.navbar-nav {
+    flex-direction: row; /* Navbar linklerini yatay hizala */
+}
+
+.nav-link {
+    margin: 0 10px;
+}
+
+/* Alert Message */
+.alert {
+    margin-top: 20px;
+}
